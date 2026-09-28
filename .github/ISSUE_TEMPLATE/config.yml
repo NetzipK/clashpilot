@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help on Discord
+    url: https://discord.gg/mjanFJ8arv
+    about: How something works, which settings to use, help setting up.
+  - name: The guide
+    url: https://pilothouse.gg/clash-of-clans-bot/guide
+    about: Every page of the window, explained.

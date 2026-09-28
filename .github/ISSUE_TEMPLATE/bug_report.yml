@@ -1,0 +1,64 @@
+name: Bug report
+description: ClashPilot did something wrong, or got stuck somewhere.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Before you post, take player names, clan names and player tags (#...) out of anything you paste.
+        Questions and setup help are quicker on [Discord](https://discord.gg/mjanFJ8arv).
+  - type: input
+    id: version
+    attributes:
+      label: ClashPilot version
+      description: The number under the name, top left of the window.
+      placeholder: "0.1.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: mumu
+    attributes:
+      label: MuMu Player version
+      description: Shown on MuMu Player's About page.
+      placeholder: "The version shown on the About page"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What ClashPilot did, and on which screen of the game.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: The last 30 lines of the Log
+      description: On the Log page, press Copy, paste it here and keep the last 30 lines.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. A screenshot of the game where it went wrong helps. Hide names and tags first.
+    validations:
+      required: false
