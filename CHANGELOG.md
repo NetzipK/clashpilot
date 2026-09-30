@@ -2,6 +2,20 @@
 
 Every ClashPilot release. Downloads are on the [Releases](../../releases) page and on [pilothouse.gg](https://pilothouse.gg/clash-of-clans-bot/changelog).
 
+## 0.1.5 (2026-09-30)
+
+### Fixed
+
+- On an emulator ClashPilot had never played on before, it stopped at "Connecting" with an error and never started. It starts on a fresh emulator now.
+- When the game opened on the Builder Base, ClashPilot took it for your home village. It knows the Builder Base now and sails back home first, and it does the same before it moves on to your next account.
+- The goblin builder and the goblin researcher work for gems. With only him free, ClashPilot still tried to give him the job; it now waits for a builder or the laboratory of your own.
+- An elixir crystal on the map, right behind the elixir bar, could stop ClashPilot reading your elixir, and while your elixir was low no attack was started. It reads the bar past the crystal now.
+- The walls sit at the very bottom of the upgrade list. ClashPilot now scrolls further down to find them on accounts with a long list.
+
+### Changed
+
+- With the "Fixed spots" drop pattern, the troops on the right are dropped a little closer to the base.
+
 ## 0.1.3 (2026-09-18)
 
 ### Fixed
