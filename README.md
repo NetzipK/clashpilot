@@ -41,6 +41,12 @@ Everything on this list is in the free download, and every line is a switch you 
 - Drops the whole army round the base and picks reward cards in the order you set
 - Reads the stars and the loot when the battle ends
 
+**Builder Base**
+
+- Visits your Builder Base once a turn: collects the bubbles, the Elixir Cart and the Clock Tower's free boost, keeps the Master Builder busy, researches, upgrades walls, and sails back home
+- Fights there until the storages are full or for a number of battles, with one troop of your choice in every slot, and stops a battle at the stars you want
+- Keeps Builder Base battles in their own place on the Statistics page
+
 **Several accounts**
 
 - Plays several accounts in turn: one village until there is nothing left to do, then the next
