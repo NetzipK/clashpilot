@@ -29,6 +29,7 @@ Everything on this list is in the free download, and every line is a switch you 
 - Keeps your builders busy with upgrades, and can leave some builders free for you
 - Builds new buildings when you can afford them, and skips the Town Hall if you want it to
 - Starts research whenever the laboratory is free
+- Puts a free Lab Assistant or Builder's Apprentice on the longest research or upgrade running
 - Upgrades walls in batches once a storage is nearly full, spending down to a level you choose
 - Clears obstacles and claims achievements and challenges
 
@@ -38,7 +39,8 @@ Everything on this list is in the free download, and every line is a switch you 
 - Turns the shares in a recipe into real troop numbers for the camps you have
 - Attacks bases that hold at least the gold, elixir and dark elixir you ask for, and presses Next only as often as you allow
 - Asks your clan for castle troops before the attack and waits for them
-- Drops the whole army round the base and picks reward cards in the order you set
+- Drops the whole army round the base, or in lines along one or two sides of the map, at a player's pace, and picks reward cards in the order you set
+- Ends a battle early by your rules: at a damage percentage, after so many seconds, or once no loot has come in for a while
 - Reads the stars and the loot when the battle ends
 
 **Builder Base**
