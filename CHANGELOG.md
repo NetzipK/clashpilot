@@ -2,6 +2,14 @@
 
 Every ClashPilot release. Downloads are on the [Releases](../../releases) page and on [pilothouse.gg](https://pilothouse.gg/clash-of-clans-bot/changelog).
 
+## 0.2.2 (2026-10-06)
+
+### Fixed
+
+- Setting up an emulator instance could fail on some computers with a message ending in "no PNG data". ClashPilot takes a screenshot to check the emulator's display, and some emulators answer it with a warning first. The picture is now read past such a line, taken another way when it does not come at all, and if it still cannot be taken, the message says what the emulator answered.
+- On the Builder Base, the tap that closes a menu or lets go of a building landed by the gem bar, where the boat home drifts by. Now and then it hit the boat, and ClashPilot sailed home in the middle of a visit. The tap now lands on the cliff at the left edge, away from the boat.
+- The +1 and +10 badges on the Add Wall buttons could go unrecognised, and a wall batch was passed over. ClashPilot spots them more readily now.
+
 ## 0.2.1 (2026-10-03)
 
 ### New
