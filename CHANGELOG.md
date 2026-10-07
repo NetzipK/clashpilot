@@ -2,6 +2,18 @@
 
 Every ClashPilot release. Downloads are on the [Releases](../../releases) page and on [pilothouse.gg](https://pilothouse.gg/clash-of-clans-bot/changelog).
 
+## 0.2.3 (2026-10-07)
+
+### New
+
+- The event's Totem Throwers are recognised in the army tray and go down with the rest of the army.
+
+### Fixed
+
+- On some computers ClashPilot saw only MuMu Player's home screen while the game ran, and stopped after a few tries. MuMu's "Keep alive in the background" option opens every app in a tab of its own, out of ClashPilot's sight. Setting up an instance now switches that option off and restarts the emulator once. If you set up your instance with an earlier version, press **Use this instance** on the Settings page again.
+- Setting up an instance that was not running could fail right after the emulator started, while it was still waking up. ClashPilot now waits until it is ready.
+- When the game is open somewhere ClashPilot cannot see, it now stops and tells you to open the game on the emulator's main screen, instead of pressing back and restarting the game over and over.
+
 ## 0.2.2 (2026-10-06)
 
 ### Fixed
