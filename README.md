@@ -25,13 +25,17 @@ Everything on this list is in the free download, and every line is a switch you 
 
 **In the village**
 
-- Collects your resources and the loot cart
+- Collects your resources, the loot cart and Capital Gold
 - Keeps your builders busy with upgrades, and can leave some builders free for you
 - Builds new buildings when you can afford them, and skips the Town Hall if you want it to
 - Starts research whenever the laboratory is free
 - Puts a free Lab Assistant or Builder's Apprentice on the longest research or upgrade running
 - Upgrades walls in batches once a storage is nearly full, spending down to a level you choose
 - Clears obstacles and claims achievements and challenges
+
+**Clan**
+
+- Donates to your clanmates: what they asked for, or dragons, balloons, giants and lightning spells when they leave the choice to you, paid in elixir and never in gems
 
 **Army and attack**
 
